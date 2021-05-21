@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<title>PORTFOLIO: Renee Hollomon</title>
+		<link href="styles.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class=uber>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				
+				<nav class="topnav" id="myTopnav">
+					<a href="../Portfolio/index.html" class="active">HOME</a>
+					<a href="../_Simple_Store/index.html">STORE</a>
+					<a href="../_API_Quote/index.html">QUOTES</a>
+					<a href="../_Temp_Convert/index.html">&deg;F / &deg;C</a>
+					<a href="../_Weather_AJAX/index.html">WEATHER</a>
+					<a href="../_Holiday_AJAX/index.html">HOLIDAYS</a>
+					<a href="../_Number_Fact_AJAX/index.html">NUMBER FUN</a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+				</nav>
+			
+			
+
+			<header>
+			<h2>PORTFOLIO	<br>
+				Renee Hollomon</h2>
+			<h3>A lovely portfolio for CIS-113 at Skyline College, taught by the esteemed Professor Pamela Price.</h3>
+			</header>
+
+			<main>
+			<div class="row">
+				<div class="column" id="menu">
+				<!-- This LOOKS empty but a MENU will inhabit it! -->
+				</div>
+				<div class="column" id="itemorder">
+					<table>
+						<tr>
+							<th><p><label>Menu item:<br>
+								<input id="itemName" type="text" value="gnarlyFries"></label></p>
+
+								<p><label>Quantity:<br>
+									<input id="itemQuant" type="number" min="1" max="333" value="2"></label></p>
+								<p><button id="addItem" type="submit" onclick="addItem()">Order This Item</button></p>
+								<p><button id="newOrder" type="submit" onclick="newOrder()">New Order</button></p>
+							</th>
+						</tr>
+					</table>
+
+					<table>
+						<tr>
+							<th>
+								<div>Order Total: $ <span id="totalPrice">0</span></div> 
+								<p></p>
+								<div>Order Summary:<br> 							
+								<textarea id="textareaSummary" rows=10></textarea></div>
+							</th>
+						</tr>
+					</table>
+
+				</div>
+			</div>
+			</main>	
+			<hr width=50%>
+
+	<!-- 
+			<div class="row">
+				<div class="column" id="what">row/column A</div>
+				<div class="column" id="now">row/column B</div>
+			</div>
+	-->
+
+		<footer>
+			<h2>Foot of the page.</h2>
+		</footer>
+			
+			<script src= main.js defer></script>
+			
+		</div>
+	</body>
+</html>
+
+
